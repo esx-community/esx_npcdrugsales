@@ -95,8 +95,9 @@ AddEventHandler('notifyc', function()
     local streetName, crossing = Citizen.InvokeNative( 0x2EB41072B4C1E4C0, plyPos.x, plyPos.y, plyPos.z, Citizen.PointerValueInt(), Citizen.PointerValueInt() )
     local streetName, crossing = GetStreetNameAtCoord(x, y, z)
     streetName = GetStreetNameFromHashKey(streetName)
+    crossing = GetStreetNameFromHashKey(crossing)
+    
     if crossing ~= nil then
-      crossing = GetStreetNameFromHashKey(crossing)
 
       local coords      = GetEntityCoords(GetPlayerPed(-1))
 
@@ -105,7 +106,6 @@ AddEventHandler('notifyc', function()
         y = coords.y,
         z = coords.z
       })
-
     else
       TriggerServerEvent('esx_phone:send', "police", "Some shady prick is selling drugs on " .. streetName, true, {
         x = coords.x,
