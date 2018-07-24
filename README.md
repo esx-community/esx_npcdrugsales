@@ -2,10 +2,18 @@
 
 A script for selling drugs to the NPC of your map.
 
+# Dependencies
+
+1.) ESX_Drugs
+
+2.) ESX_Phone
+
 # Installation
 
 1.) Clone or Download
+
 2.) Place anywhere inside your resource folder
+
 3.) Add start npcdrugsales to your server config file
 
 # Editing Notifications
