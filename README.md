@@ -22,4 +22,4 @@ Editing notifications is easy and can be done in both the server.lua script and 
 
 # Credits
 
-This resource is an overhaul of the ESX_drugsellnpc resource. However that resource is neglected and poorly coded. This resource was made possible by Vito, and made possible for public consumption by x0Z3ro0x. From here on out, anything that break (unlikely) will be fixed by myself (x0Z3ro0x) so feel free to post bug reports. Please make sure to give a shoutout to Vito and enjoy the release everyone!
+This resource is an overhaul of the ESX_drugsellnpc resource. However that resource is neglected and poorly coded. This resource was made possible by Vito, and made possible for public consumption by x0Z3ro0x. From here on out, anything that breaks (unlikely) will be fixed by myself (x0Z3ro0x) so feel free to post bug reports. Please make sure to give a shoutout to Vito and enjoy the release everyone!
